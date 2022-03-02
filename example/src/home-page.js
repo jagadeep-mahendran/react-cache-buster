@@ -11,15 +11,7 @@ function HomePage() {
       </div>
       <div className="footer">
         <a
-          href="https://twitter.com/CagriAldemir"
-          target="_blank"
-          rel="noopener noreferrer"
-          className="footer-icon"
-        >
-          <img alt="logo" src="/twitter.png" />
-        </a>
-        <a
-          href="https://github.com/CagriAldemir"
+          href="https://github.com/jagadeep-mahendran/react-cache-buster"
           target="_blank"
           rel="noopener noreferrer"
           className="footer-icon"

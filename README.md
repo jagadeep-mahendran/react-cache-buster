@@ -77,11 +77,6 @@ The process works as follows;
 - Then, the current version of the cached project is compared with the version received over the request.
 - If it is understood that a new version has been published as a result of this comparison, the whole cache is deleted and the project is reloaded.
 
-### Contact
-
-Twitter: [@CagriAldemir](https://twitter.com/CagriAldemir)
-
-Mail: [cagri@cagrialdemir.com.tr](mailto:cagri@cagrialdemir.com.tr)
 
 ### License
 

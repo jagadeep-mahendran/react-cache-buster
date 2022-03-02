@@ -25,7 +25,7 @@ function CacheBuster({
 
   const checkCacheStatus = async () => {
     try {
-      const res = await fetch('/meta.json');
+      const res = await fetch(`/meta.json?${new Date().getTime()}`, { cache: 'no-cache' })
       const { version: metaVersion } = await res.json();
 
       const shouldForceRefresh = isThereNewVersion(metaVersion, currentVersion);
